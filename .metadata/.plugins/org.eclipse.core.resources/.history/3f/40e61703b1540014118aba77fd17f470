@@ -3,9 +3,7 @@
  *
  * It uses the CSS3 idea of defined sections, and uses "main"
  * as a container element.  This version seeks to provide compatibility 
- * with legacy Firefox, Chrome, Safari, etc.  It also provides 
- * compatibility with IE11 - yes, really, IE11 needs a fix!!!
- *  - not yet IE!
+ * with legacy Firefox, Chrome, Safari, etc - not IE!
  * 
  * @author David Argles <d.argles@gmx.com>
  * @version 15-10-2014, 22:03h
