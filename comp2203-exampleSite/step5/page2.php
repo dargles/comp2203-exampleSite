@@ -8,7 +8,7 @@
  * remainder of our boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 03-09-2014, 17:03h
+ * @version 15-10-2014, 18:03h
  * @copyright 2014 Haven Consulting
  */
  
@@ -17,7 +17,7 @@
  $template = new partials();
  
  /* Now we can stream our initial template code */
- echo $template->render("templateTop", ["title" => "Page 2"]);
+ echo $template->render("templateTop", array("title" => "Page 2"));
 ?>
 
       <!-- Our main page content follows -->
@@ -26,5 +26,5 @@
 
 <?php
  /* Now we stream our final boilerplate code */
- echo $template->render("templateBottom", []);
+ echo $template->render("templateBottom", array());
 ?>

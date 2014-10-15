@@ -6,7 +6,7 @@
  * re-use on every page.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 15-10-2014, 18:15h
+ * @version 04-09-2014, 23:15h
  * @copyright 2014 Haven Consulting
  */
 
@@ -47,24 +47,22 @@
 	 * @param array update information in [tag] => [value] format
      * @return The updated partials text
      */
-    public function render($partial, $substitutions = array()) 
+    public function render($partial, $substitutions = []) 
   	{
       // Check that the partial exists
       $filename = "library/$partial.html";
-      if(file_exists($filename))
-	  {
-	      // Load the partial
-	      $template = file_get_contents($filename);
-		  // Insert simple values from ini file into the substitions list 
-	      $substitutions = $substitutions + array("heading" => $this->heading, "tagline" => $this->tagline, 
-	        "footer" => $this->footer);
-	      // Now add the menu entries from the ini file
-	      $menu = "\n";
-	      foreach($this->menu as $name => $page)$menu = $menu."      <a href=\"$page\">$name</a>\n";
-		  $substitutions = $substitutions + array("menu" => $menu);
-	      // Substitute any placeholders
-	      foreach($substitutions as $key => $replacement) $template = str_replace('{{'.$key.'}}', $replacement, $template); 
-	  }
+      if(!file_exists($filename)) throw new Exception("Could not find partial $partial in $filename.");
+      // Load the partial
+      $template = file_get_contents($filename);
+	  // Insert simple values from ini file into the substitions list 
+      $substitutions = $substitutions + ["heading" => $this->heading, "tagline" => $this->tagline, 
+        "footer" => $this->footer];
+      // Now add the menu entries from the ini file
+      $menu = "\n";
+      foreach($this->menu as $name => $page)$menu = $menu."      <a href=\"$page\">$name</a>\n";
+	  $substitutions = $substitutions + ["menu" => $menu];
+      // Substitute any placeholders
+      foreach($substitutions as $key => $replacement) $template = str_replace('{{'.$key.'}}', $replacement, $template); 
       // Send back the result
       return $template;
     }
