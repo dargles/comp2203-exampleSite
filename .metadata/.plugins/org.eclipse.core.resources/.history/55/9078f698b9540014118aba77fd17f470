@@ -32,77 +32,49 @@ main
   box-shadow:0px 10px 20px rgba(0,0,0,0.6);
 }
 
-/* The following definitions apply ONLY to the direct descendents of main.
- * This allows us to define repeated definitions for the four contained 
- * sections once; and it doesn't affect main itself (rather important) */
-main >
-{
-  padding-left:0;
-  margin-left:0;
-}
-/* These definitions apply to main and all its descendents */
-main h3 {padding:15px;margin:10px 0 10px 0;}
-main p  {padding:0 30px 15px 30px;margin:0;}
-
 /* header defines the header section of our web page */
 header
 {
   background-color:gray;
   color:white;
+  padding:1em;
   text-align:center;
   border-radius:10px 10px 0px 0px;
 }
-header h3{font-size:2em;padding:1em 0 1em 0;}
+header h3{font-size:2em;padding:5px;}
 
 /* nav is the nav bar */
 nav
 {
   background-color:#ccc;
-  padding:10px 0 0 11px;
+  padding:0.5em 0.5em 0em 0.5em;
 }
 nav a, a.selected
 {
   background-color:#aaa;
-  padding:4px 4px 0 4px;
+  padding:0.3em 0.3em 0em 0.3em;
+  border-left:solid;
+  border-right:solid;
+  border-width:0;
   border-radius:5px 5px 0 0;
   text-decoration:none;
 }
 nav a.selected{background-color:white;}
 
 /* section defines the main content area of our page */
-/*section h3{padding-left:5px;}
-section p{padding-left:1em;}*/
+section{padding:0.3em;}
+section h3{padding-left:5px;}
+section p{padding-left:1em;}
 
 /* Guess what footer is... */
 footer
 {
   font-style:italic;
   color:gray;
+  padding:0 0 0.1em 0.5em;
   border-radius:0px 0px 10px 10px;
 }
-/* Override the default padding to line it up with the h3 entries */
-footer p{padding:0 0 15px 15px;}
-/**
- * The following section defines attributes specific to narrow screen widths.  
- * We're probably dealing with modern(ish) mobile phones with high res, so 
- * can probably get away with a smaller font to make more room.  We need 
- * narrow margins, though. 
- */
-@media screen and (max-width:480px)
-{
-}
-/**
- * The following section defines attributes specific to intermediate widths
- */
-@media screen and (min-width:481px) and (max-width:600px)
-{
-}
-/**
- * The following section defines attributes specific to wider screen widths
- */
-@media screen and (min-width:601px)
-{
-}
+
 /**---------------------------------------------
  *             End of Code
  *----------------------------------------------

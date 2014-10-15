@@ -58,12 +58,12 @@ header h3{font-size:2em;padding:1em 0 1em 0;}
 nav
 {
   background-color:#ccc;
-  padding:10px 0 0 11px;
+  padding:10px 0 0 15px;
 }
 nav a, a.selected
 {
   background-color:#aaa;
-  padding:4px 4px 0 4px;
+  padding:6px 6px 0 6px;
   border-radius:5px 5px 0 0;
   text-decoration:none;
 }

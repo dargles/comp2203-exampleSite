@@ -41,8 +41,8 @@ main >
   margin-left:0;
 }
 /* These definitions apply to main and all its descendents */
-main h3 {padding:15px;margin:10px 0 10px 0;}
-main p  {padding:0 30px 15px 30px;margin:0;}
+main h3 {padding:1em;}
+main p  {padding:0 0 1em 2em;}
 
 /* header defines the header section of our web page */
 header
@@ -58,12 +58,15 @@ header h3{font-size:2em;padding:1em 0 1em 0;}
 nav
 {
   background-color:#ccc;
-  padding:10px 0 0 11px;
+  /*padding:0.5em 0.5em 0em 0.5em;*/
 }
 nav a, a.selected
 {
   background-color:#aaa;
-  padding:4px 4px 0 4px;
+  padding:0.3em 0.3em 0em 0.3em;
+  border-left:solid;
+  border-right:solid;
+  border-width:0;
   border-radius:5px 5px 0 0;
   text-decoration:none;
 }
@@ -81,7 +84,7 @@ footer
   border-radius:0px 0px 10px 10px;
 }
 /* Override the default padding to line it up with the h3 entries */
-footer p{padding:0 0 15px 15px;}
+footer p{padding:0 0 1em 1em;}
 /**
  * The following section defines attributes specific to narrow screen widths.  
  * We're probably dealing with modern(ish) mobile phones with high res, so 
