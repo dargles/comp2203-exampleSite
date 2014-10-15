@@ -4,10 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="library/normal.css">
-    <!-- The following 3 lines are an IE fix.  Eno-ugh said... -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- The following line is an IE fix.  Eno-ugh said... -->
+    <script>document.createElement("main")</script>
+    <script>document.createElement("header")</script>
     <title>{{title}}</title>
   </head>
 

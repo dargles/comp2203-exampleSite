@@ -14,8 +14,7 @@
 
 /* Compatibility process 1: we declare the HTML5 semantic tags as 
  * block elements */
-header, section, footer, aside, nav, main, article, figure, 
-  container{display:block;}
+header, section, footer, aside, nav, main, article, figure, container{display:block;}
 
 /* body formatting affects the entire site and full page background */
 body{font-family:verdana,arial,sans-serif;background-color:#cc9;}
