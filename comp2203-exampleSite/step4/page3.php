@@ -8,7 +8,7 @@
  * remainder of our boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 03-09-2014, 17:04h
+ * @version 15-10-2014, 17:47h
  * @copyright 2014 Haven Consulting
  */
  
@@ -16,12 +16,12 @@
  include("library/partials.php");
  $template = new partials();
  /* Now we can stream our initial template code */
- echo $template->render("templateTop", ["title" => "Page 3"]);
+ echo $template->render("templateTop", array("title" => "Page 3"));
 ?>
       <!-- Our main page content follows -->
       <h3>Welcome to Page 3</h3>
       <p>This is page three, and it is using a CSS to get a bit of formatting.</p>
 <?php
  /* Now we stream our final boilerplate code */
- echo $template->render("templateBottom", []);
+ echo $template->render("templateBottom", array());
 ?>

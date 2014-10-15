@@ -6,7 +6,7 @@
  * re-use on every page.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 15-10-2014, 17:52h
+ * @version 03-09-2014, 18:18h
  * @copyright 2014 Haven Consulting
  */
 
@@ -31,7 +31,7 @@
 	 * @param array update information in [tag] => [value] format
      * @return The updated partials text
      */
-    public function render($partial, $substitutions = array()) 
+    public function render($partial, $substitutions = []) 
   	{
       // Check that the partial exists
       $filename = "library/$partial.html";

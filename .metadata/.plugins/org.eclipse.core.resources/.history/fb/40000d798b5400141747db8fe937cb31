@@ -8,7 +8,7 @@
  * remainder of our boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 15-10-2014, 17:50h
+ * @version 05-09-2014, 14:02h
  * @copyright 2014 Haven Consulting
  */
  
@@ -21,11 +21,11 @@
  /* Now we stream our initial template code
   * Change "Template Page" to be whatever the name of this page is.
   */
- echo $template->render("templateTop", array("title" => "Template Page"));
+ echo $template->render("templateTop", ["title" => "Template Page"]);
 ?>
 
       <!-- Our main page content follows -->
-      <!-- Change the following lines to be whatever you need for this page -->
+      <!-- Change the following two lines to be whatever you need for this page -->
       <h3>Welcome!</h3>
       <p>Welcome to my Site!</p>
       
@@ -33,5 +33,5 @@
  /* Now we stream our final boilerplate code 
   * Don't change anything in the following line
   */
- echo $template->render("templateBottom", array());
+ echo $template->render("templateBottom", []);
 ?>
