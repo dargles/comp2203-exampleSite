@@ -6,7 +6,7 @@
  * re-use on every page.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 15-10-2014, 18:23h
+ * @version 04-09-2014, 23:15h
  * @copyright 2014 Haven Consulting
  */
 
@@ -58,8 +58,8 @@
       // Load the partial
       $template = file_get_contents($filename);
 	  // Insert simple values from ini file into the substitions list      
-      $substitutions = $substitutions + array("heading" => $this->heading, "tagline" => $this->tagline, 
-        "footer" => $this->footer);
+      $substitutions = $substitutions + ["heading" => $this->heading, "tagline" => $this->tagline, 
+        "footer" => $this->footer];
       // Now add the menu entries from the ini file
       //Initialise the menu variable
       $menu = "\n";
@@ -77,7 +77,7 @@
 		else $menu = $menu."      <a href=\"$page\">$name</a>\n";
 	  } 
 	  // Now add the page title and the menu links to the substitutions list
-	  $substitutions = $substitutions + array("title" => $this->title, "menu" => $menu);
+	  $substitutions = $substitutions + ["title" => $this->title, "menu" => $menu];
       // Substitute any placeholders
       foreach($substitutions as $key => $replacement) $template = str_replace('{{'.$key.'}}', $replacement, $template); 
       // Send back the result
