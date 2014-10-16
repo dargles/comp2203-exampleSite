@@ -11,14 +11,6 @@ important to (i) avoid using margin (i.e. set it to zero everywhere, and
 There are sites out there that do a good job of explaining how to get 
 compatible displays, even across IE and everything else.  
 
-Hmm: could add onto the list:
-
-5) Handling 404 errors
-6) Possibly... "If we didn't have Git".  i.e. "updates.txt", "todo.txt" 
-   or whatever.
-7) Documentation.  i.e. readme.txt, quickstart.txt, howto.txt...  That's 
-   in addition to stuff like PHP Doc, planning documents, etc.
-
 ++++
 Completed:
 
