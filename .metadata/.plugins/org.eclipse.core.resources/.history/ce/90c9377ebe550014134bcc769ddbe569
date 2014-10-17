@@ -35,7 +35,7 @@ main
 /* The following definitions apply ONLY to the direct descendents of main.
  * This allows us to define repeated definitions for the four contained 
  * sections once; and it doesn't affect main itself (rather important) */
-main > header, nav, section, footer
+main >
 {
   padding-left:0;
   margin-left:0;
