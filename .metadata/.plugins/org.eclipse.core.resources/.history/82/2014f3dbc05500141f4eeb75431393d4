@@ -110,9 +110,6 @@ footer p{padding:0 0 15px 15px;}
   /* These definitions apply to main and all its descendents */
   main h3 {padding:15px 115px 15px 115px;}
   main p  {padding:0 130px 15px 130px;}
-  header  {text-align:left;}
-  /*header h3{font-size:2em;padding:1em 0 1em 0;}*/
-
   nav     {padding:10px 0 0 111px;}
   /* Override the default padding to line it up with the h3 entries */
   footer p{padding:0 115px 15px 115px;}
