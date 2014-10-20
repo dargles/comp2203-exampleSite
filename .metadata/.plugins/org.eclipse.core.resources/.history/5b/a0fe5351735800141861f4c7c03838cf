@@ -32,7 +32,7 @@ on a particular page, we can add it in to the (now optional) list of replacement
 the specified partials filename.      
 
 As before, you can inspect the individual pages' code by downloading it and looking at it in a 
-text editor; but you'll need to download the zip file to see the contents of the PHP files.
+text editor.
 
 D.A.Argles
-20.10.2014 @ 17:07h
+05.09.2014 @ 17:36h
