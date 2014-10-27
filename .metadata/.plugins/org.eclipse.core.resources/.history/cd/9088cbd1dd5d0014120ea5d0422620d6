@@ -11,18 +11,16 @@
  */
 
   /**
-   * The partials class provides access to our boilerplate partials
+   * partials provides access to our partials
    *
-   * Besides allowing us to load a particular partials file, it also allows 
-   * us to change parameters in the file.
+   * Besides allowing us to load a particular partials file, it also allows us to change 
+   * parameters in the file.
+   * 
    */
   class partials
   {
     /**
-     * The following attributes define the key parts of our boilerplate 
-	 * code.
-	 * 
-	 * @access protected
+     * @access protected
      * @var class
      */
     protected $title = "Default tab title";

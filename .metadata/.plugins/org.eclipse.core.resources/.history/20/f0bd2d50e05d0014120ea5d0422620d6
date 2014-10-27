@@ -15,6 +15,9 @@
    *
    * Besides allowing us to load a particular partials file, it also allows 
    * us to change parameters in the file.
+   * 
+   * @author David Argles <d.argles@gmx.com>
+   * @method render
    */
   class partials
   {

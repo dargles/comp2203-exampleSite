@@ -11,16 +11,17 @@
  */
 
   /**
-   * The partials class provides access to our boilerplate partials
+   * partials provides access to our partials
    *
-   * Besides allowing us to load a particular partials file, it also allows 
-   * us to change parameters in the file.
+   * Besides allowing us to load a particular partials file, it also allows us to change 
+   * parameters in the file.
+   * 
    */
   class partials
   {
     /**
-     * The following attributes define the key parts of our boilerplate 
-	 * code.
+     * The partials class allows us to access the partials that form 
+	 * our boilerplate code for each page and to render them.
 	 * 
 	 * @access protected
      * @var class
