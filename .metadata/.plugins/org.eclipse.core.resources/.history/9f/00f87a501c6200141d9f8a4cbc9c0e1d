@@ -1,0 +1,101 @@
+<?php
+/**
+ * partials.php provides access to our partials
+ *
+ * It defines a class, partials, which gives access to our boilerplate partials which we 
+ * re-use on every page.
+ * 
+ * @author David Argles <d.argles@gmx.com>
+ * @version 01-11-2014, 22:13h
+ * @copyright 2014 Haven Consulting
+ */
+
+  /**
+   * partials provides access to our partials
+   *
+   * Besides allowing us to load a particular partials file, it also allows us to change 
+   * parameters in the file.
+   * 
+   */
+  class partials
+  {
+    /**
+     * @access protected
+     * @var class
+     */
+    protected $template = "std";
+    protected $css = "grey";
+    protected $title = "Default tab title";
+    protected $heading = "Default Website Heading";
+    protected $tagline = "Default website description";
+    protected $footer = "Default footer";
+    protected $menu = array ("Page 1"=>"page1.php", "Page 2"=>"page2.php");
+	private   $path = "trimsite2/";
+	
+	public function __construct()
+    {
+      if(@parse_ini_file("page.ini",true)){
+        $iniFile = (object) @parse_ini_file("page.ini",true);
+        $this->template = $iniFile->template;
+        $this->css = $iniFile->css;
+        $this->heading = $iniFile->heading;
+        $this->tagline = $iniFile->tagline;
+        $this->footer = $iniFile->footer;
+        $this->menu = (object) $iniFile->menu;
+      }
+      return;
+    }
+	     
+    /**
+     * render() allows us to change the css file used for a particular page
+     * 
+     * @param text filename (minus extension)
+	 * @param array update information in [tag] => [value] format
+     * @return The updated partials text
+     */
+    public function render($partial, $substitutions = array()) 
+  	{
+      // We'll need to know the filename of the current page
+      $thispage = substr(strrchr($_SERVER['PHP_SELF'],"/"),1);
+	  //set the required template for the partial
+	  $partial = $this->template.$partial;
+      // Check that the partial exists
+      $filename = $this->path."partials/$partial.html";
+      if(file_exists($filename))
+      {
+	      // Load the partial
+	      $template = file_get_contents($filename);
+		  // Insert simple values from ini file into the substitions list      
+	      $substitutions = $substitutions + array("heading" => $this->heading, "tagline" => $this->tagline, 
+	        "footer" => $this->footer);
+	      // Now add the menu entries from the ini file
+	      //Initialise the menu variable
+	      $menu = "\n";
+	      // Iterate through the list of the varous pages' names and related filenames
+	      foreach($this->menu as $name => $page)
+		  {
+		  	if($thispage==$page)
+		  	{
+		  	  // We've found the current page name, so record it in $title
+		  	  $this->title = $name;
+			  // And choose the "selected" class for our menu link...
+		  	  $menu = $menu."      <a href=\"$page\" class=\"selected\">$name</a>\n";
+			}
+			// ...otherwise, just use the normal menu link
+			else $menu = $menu."      <a href=\"$page\">$name</a>\n";
+		  } 
+		  // Now add the page title and the menu links to the substitutions list
+		  $substitutions = $substitutions + array("title" => $this->title, "menu" => $menu);
+	      // Substitute any placeholders
+	      foreach($substitutions as $key => $replacement) $template = str_replace('{{'.$key.'}}', $replacement, $template);
+	      }
+        else $template = "Couldn't find $partial in $filename"; 
+	    // Send back the result
+	    return $template;
+      }
+  }
+/**---------------------------------------------
+ *             End of Code
+ *----------------------------------------------
+ */
+?>
