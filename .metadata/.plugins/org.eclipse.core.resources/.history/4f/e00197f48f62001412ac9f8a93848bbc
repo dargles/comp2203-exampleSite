@@ -1,11 +1,12 @@
 /**
- * back-pic.css provides a translucent web page over a background picture
+ * normal.css provides a basic website layout
  *
- * It uses the CSS3 idea of defined sections
+ * It uses the CSS3 idea of defined sections, and additionally defines 
+ * its own section, "container"
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 02-11-2014, 16:27h
- * @copyright 2014 Haven Consulting
+ * @version 02-11-2014, 12:57h
+ * @copyright 2013 Haven Consulting
  */
 
 /**
@@ -15,8 +16,7 @@
 main, header, section, footer, aside, nav, article, figure {display:block;}
 
 /**
- * The following section defines attributes that apply to all widths of screen 
- * display.  It is also the only section that will be read by IE6 for example
+ * The following section will be the only part understood by IE6
  */
 body
 {
@@ -24,27 +24,16 @@ body
   background-image:url('../../graphics/desert-island.jpeg');
   background-size:cover;
 }
-/* main is the container for each page */
 main
 {
   display:block;
   max-width:790px;
   min-width:300px;
+  /* min-height:100%; */
   margin:0 auto;
+  /*background-color:white;*/
   opacity:0.8;
 }
-/* The following definitions apply ONLY to the direct descendents of main.
- * This allows us to define repeated definitions for the four contained 
- * sections once; and it doesn't affect main itself (rather important) */
-main > header, nav, section, footer
-{
-  padding-left:0;
-  margin-left:0;
-}
-/* These definitions apply to main and all its descendents */
-main h3 {padding:15px;margin:0;}
-main p  {padding:0 30px 15px 30px;margin:0;}
-
 header
 {
   color:white;
@@ -54,32 +43,18 @@ header
   text-align:left;
   background-color:rgba(255,0,0,0);
 }
-header h3{font-size:2em;padding:0px;margin:0.2em 10px 0 15px;}
-header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 30px;}
+header h3{font-size:2em;padding:0px;margin:0.2em 10px 0 80px;}
+header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 90px;}
 header img{height:50px;float:left;margin:8px 10px 0 0px;}
-
-/* figure.banner is only needed if we accidentally forget and use the "banner" partials */
-figure.banner{height:0px;}
-
-/* nav is the navigation bar (and the a-s are the navigation buttons) */
-nav 
+figure.banner
 {
-  background-color:black;
-  padding:10px 0 10px 11px;
-  border-radius:10px 10px 10px 10px;
+  /*display:block;
+  background-image:url('../../graphics/banner.jpeg');*/
+  height:0px;
 }
-nav a, a.selected
-{
-  /*background-color:#aaa;*/
-  color:white;
-  padding:4px 4px 0 4px;
-  /*border-radius:5px 5px 0 0;*/
-  text-decoration:none;
-}
+nav {border-radius:10px 10px 10px 10px;}
 nav a:link, a:visited{text-decoration:none;}
-nav a.selected{color:gray;}
 
-/* section defines the main content area of our page */
 section
 {
   background-color:white;
@@ -87,8 +62,8 @@ section
   border-radius:10px 10px 0px 0px;
   box-shadow:0px 10px 20px rgba(0,0,0,0.6);
 }
-section h3{padding-left:15px;}  
-section p{padding:0 30px 0 30px;}
+section h3{padding-left:0px;}  
+section p{padding:0 10px 0 10px;}
 section p.centre{text-align:center}
 section ol li{padding:0.5em 0 0.5em 0;}
 section table{margin-left:auto; margin-right:auto; font-style:italic;}
@@ -111,8 +86,8 @@ footer
  */
 @media screen and (max-width:480px)
 {
-    header h3{margin-left:15px;font-size:1.5em;}
-    header p{margin-left:30px;font-size:0.9em;}
+    header h3{margin-left:75px;font-size:1.5em;}
+    header p{margin-left:85px;font-size:0.9em;}
     header img{height:50px;float:left;margin:3px 10px 0 5px;}
 	nav
 	{
@@ -135,31 +110,30 @@ footer
 	}
 	nav a:hover{color:#ccc;}
 	nav a.current{background-color:white;}
-    section{padding:10 10 10 0px;font-size:small;border-radius:0px 0px 0px 0px;}
+    section{padding:10px;font-size:small;border-radius:0px 0px 0px 0px;}
     section h3{font-size:1.1em;}
     section img{width:280px;}
     section table{font-size:small;}
-    footer {padding-left:0px;font-size:small;}
-    footer p{padding-left:15px;}
+    footer {padding-left:10px;font-size:small;}
 }
 /**
  * The following section defines attributes specific to intermediate widths
  */
 @media screen and (min-width:481px) and (max-width:600px)
 {
-    header h3{margin-left:30px;}
-    header p{margin-left:45px;}
+    header h3{margin-left:75px;}
+    header p{margin-left:85px;}
     header img{height:50px;float:left;margin:8px 10px 0 5px;}
 	nav
 	{
 	  margin:0 auto;
-	  padding:0 0 0 30px;
+	  padding-left:10px;
 	  background-color:black;
       text-align:center;
       height:2em;
           /*width:100%;*/
 	}
-	nav a, a.selected
+	nav a
 	{
       display:block;
       float:left;
@@ -183,25 +157,22 @@ footer
 	  padding-left:10px;
 	  border-radius:0px 0px 10px 10px;
 	}
-	footer p{padding-left:15px;}
 }
 /**
  * The following section defines attributes specific to wider screen widths
  */
 @media screen and (min-width:601px)
 {
-	header h3{margin:0.2em 10px 0 80px;}
-	header p{margin:0 0 0 95px;}
-    nav
+	nav
 	{
 	  margin:0 auto;
 	  background-color:black;
       text-align:center;
       height:2em;
-      padding:0 0 0 80px;
+      padding-left:80px;
       /*width:100%;*/
 	}
-	nav a, a.selected
+	nav a
 	{
       display:block;
       float:left;
@@ -219,16 +190,12 @@ footer
 	  margin:20px 0px 0 0px;
 	  padding:10px 80px 10px 80px;
 	}
-	section h3{padding-left:0px;}  
-    section p{padding:0 10px 0 10px;}
-    
 	footer
 	{
 	  margin:0px 0px 0px 0px;
 	  padding:10px 80px 10px 80px;
 	  border-radius:0px 0px 10px 10px;
 	}
-	footer p{padding-left:0px;}
 }
 /**---------------------------------------------
  *             End of Code
