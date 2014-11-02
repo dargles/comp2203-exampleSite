@@ -1,0 +1,19 @@
+; David's configuration file for our website
+; @author David Argles <d.argles@gmx.com>
+; @version 01nov2014 : 22.545h
+; Comments start with ';', as in php.ini
+
+template = banner
+css = left-menu
+
+heading = My Website
+tagline = A little example website
+footer = "&copy;2014 David"
+
+[menu]
+Home = page1.php
+About = page2.php
+Gallery = page3.php
+Contact = page4.php
+
+;--- End of File ---
