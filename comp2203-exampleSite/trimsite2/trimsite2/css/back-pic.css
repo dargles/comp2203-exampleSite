@@ -135,7 +135,7 @@ footer
 	}
 	nav a:hover{color:#ccc;}
 	nav a.current{background-color:white;}
-    section{padding:10 10 10 0px;font-size:small;border-radius:0px 0px 0px 0px;}
+    section{padding:10px 10px 10px 0px;font-size:small;border-radius:0px 0px 0px 0px;}
     section h3{font-size:1.1em;}
     section img{width:280px;}
     section table{font-size:small;}

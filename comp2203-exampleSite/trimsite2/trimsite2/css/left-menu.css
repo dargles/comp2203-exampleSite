@@ -1,12 +1,11 @@
 /**
- * normal.css provides a basic website layout
+ * left-menu.css provides a retro layout with menu bar on the left
  *
- * It uses the CSS3 idea of defined sections, and additionally defines 
- * its own section, "container"
+ * It uses the CSS3 idea of defined sections
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 08-12-2013, 08:59h
- * @copyright 2013 Haven Consulting
+ * @version 02-11-2014, 22:43h
+ * @copyright 2014 Haven Consulting
  */
 
 /* Compatibility process 1: we declare the HTML5 semantic tags as 
@@ -25,10 +24,8 @@ body
 }
 main
 {
-  display:block;
   max-width:850px;
   min-width:320px;
-  /* min-height:100%; */
   margin:0 auto;
   background-color:black;
   border-radius:10px 10px 10px 10px;
@@ -38,7 +35,6 @@ header
 {
   color:black;
   text-shadow: 2px 2px 1px rgba(128, 128, 255, 1);
-  /*background-color:white;*/
   background-image:url('../../graphics/seascapes.jpg');
   background-size:cover;
   margin:0 120px 0 120px;
@@ -50,32 +46,49 @@ header h3
 {
   font-size:2em;
   padding:0px;
-  margin:0.8em 10px 0 10px;
+  margin:0.8em 10px 0 15px;
 }
 header p
 {
   font-size:1em;
   font-style:italic;
   padding:2px 0 5px 0px;
-  margin:0 0 0 20px;
+  margin:0 0 0 30px;
 }
 header img{height:50px;float:left;margin:30px 10px 0 -90px;}
-figure.banner
+
+/* figure.banner is only needed if we accidentally forget and use the "banner" partials */
+figure.banner{height:0px;}
+
+nav
 {
-  background-image:url('../../graphics/banner.jpeg');
-  margin:0 120px 0 120px;
-  height:0px;
+  margin:0 auto;
+  background-color:black;
+  text-align:center;
+  height:2em;
+  padding:10px;
+  float:left;
+  width:100px;
+}
+nav a
+{
+  display:block;
+  background:linear-gradient(#222, black, #111);
+  color:white;
+  padding:0.5em 1em 0.5em 0em;
+  text-align:center;
 }
 nav a:link, a:visited{text-decoration:none;}
 
 section
 {
   background-color:white;
-  padding:10px;
-  margin:0 120px 0 120px;
+  margin:0px 120px 0px 120px;
+  padding:0px 0px 0px 0px;
+  /*float:left;*/
 }
-section h3{padding-left:0px;}
-section p{padding:0 10px 0 10px;}
+section h3{margin:0px 0 0px 15px;padding:30px 0px 10px 0px;}
+section p{margin:5px 10px 0px 30px;}
 section p.centre{text-align:center}
 section ul li{padding:0.5em 0 0.5em 0;}
 section table{padding-left:20px;font-style:italic;}
@@ -88,7 +101,8 @@ footer
   font-style:italic;
   color:gray;
   background-color:white;
-  padding:10px 10px 10px 10px;
+  margin:0 120px 0 120px;
+  padding:10px 10px 10px 15px;
   border-radius:0px 0px 0px 0px;
 }
 /**
@@ -104,23 +118,26 @@ footer
     banner{margin:0 10px 0 10px;}
 	nav
 	{
+	  float:none;
+	  width:auto;
 	  background-color:#ccc;
 	  margin:0 10px 0 10px;
       overflow:hidden;
 	  padding:0.6em 0.4em 0em 5px;
       font-size:small;
 	}
-	nav a
+	nav a, a.selected
 	{
-	  background-color:#aaa;
-	  padding:4px 4px 4px 4px;
-	  margin-right:0.2em;
+	  color:blue;
+	  background:#aaa;
+	  padding:4px 4px 8px 4px;
+	  margin:0 0.2em 0px 0;
 	  border-width:0em;
 	  border-radius:5px 5px 0px 0px;
 	  float:left;
 	}
 	nav a:hover{color:#ccc;}
-	nav a.current{background-color:white;}
+	nav a.selected{background-color:white;}
     section{margin:0 10px 0 10px;}
     section h3{font-size:1.1em;}
     section {font-size:small;}
@@ -160,7 +177,7 @@ footer
 	  text-align:center;
 	}
 	nav a:hover{color:#ccc;background:linear-gradient(#111, black, #000);}
-	nav a.current{color:gray;}
+	nav a.selected{color:gray;}
 
 	section
 	{
@@ -168,7 +185,7 @@ footer
 	}
 	footer
 	{
-	  margin-left:120px;
+	  margin:0 0 0 120px;
 	  border-radius:0px 0px 10px 0px;
 	}
 }
@@ -177,7 +194,11 @@ footer
  */
 @media screen and (min-width:701px)
 {
-    header{border-radius:0px 0px 0px 0px;}
+    header
+    {
+      border-radius:0px 0px 0px 0px;
+      background-size:cover;
+    }
 	nav
 	{
 	  margin:0 auto;
@@ -191,16 +212,13 @@ footer
 	nav a
 	{
       display:block;
-      /*float:left;*/
-	  /*background-color:black;*/
 	  background:linear-gradient(#222, black, #111);
       color:white;
 	  padding:0.5em 1em 0.5em 0em;
-	  /*width:90px;*/
 	  text-align:center;
 	}
 	nav a:hover{color:#ccc;background:linear-gradient(#111, black, #000);}
-	nav a.current{color:gray;}
+	nav a.selected{color:gray;}
 
 	section
 	{
