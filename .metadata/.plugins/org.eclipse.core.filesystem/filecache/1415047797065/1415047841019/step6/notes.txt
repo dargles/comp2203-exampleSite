@@ -1,0 +1,14 @@
+responsive design
+=================
+
+1. Before we start: specifying
+     max-width, and
+     min-width
+   makes a good deal of sense.
+
+2. There's also the viewport meta-tag that helps with mobile devices:
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+3. Now we can get on with designing our site for different widths:
+     @media screen and (max-width:480px) {}
+
