@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VZkFgFW5EeSbDvI2NsCVxw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VZkFgVW5EeSbDvI2NsCVxw" bindingContexts="_VZmiZFW5EeSbDvI2NsCVxw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;page.ini&quot; tooltip=&quot;comp2203-exampleSite/trimsite2/page.ini&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/trimsite2/page.ini&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step8/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step8/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateTop.html&quot; tooltip=&quot;comp2203-exampleSite/step7/library/templateTop.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/templateTop.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;normal.css&quot; tooltip=&quot;comp2203-exampleSite/step7/library/normal.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/normal.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/step7a/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/step7a/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/step7b/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/step7b/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateTop.html&quot; tooltip=&quot;comp2203-exampleSite/step6/library/templateTop.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/templateTop.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateBottom.html&quot; tooltip=&quot;comp2203-exampleSite/step7/library/templateBottom.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/templateBottom.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateBottom.html&quot; tooltip=&quot;comp2203-exampleSite/step6/library/templateBottom.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/templateBottom.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;normal.css&quot; tooltip=&quot;comp2203-exampleSite/step6/library/normal.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/normal.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.php&quot; name=&quot;page1.php&quot; tooltip=&quot;comp2203-exampleSite/step7/page1.php&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/page1.php&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.php&quot; name=&quot;page1.php&quot; tooltip=&quot;comp2203-exampleSite/step6/page1.php&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/page1.php&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;left-menu.css&quot; tooltip=&quot;comp2203-exampleSite/trimsite2/trimsite2/css/left-menu.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/trimsite2/trimsite2/css/left-menu.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;back-pic.css&quot; tooltip=&quot;comp2203-exampleSite/trimsite2/trimsite2/css/back-pic.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/trimsite2/trimsite2/css/back-pic.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;normal.css&quot; tooltip=&quot;comp2203-exampleSite/step8/library/normal.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step8/library/normal.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step8/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step8/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;page.ini&quot; tooltip=&quot;comp2203-exampleSite/trimsite2/page.ini&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/trimsite2/page.ini&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateTop.html&quot; tooltip=&quot;comp2203-exampleSite/step7/library/templateTop.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/templateTop.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;normal.css&quot; tooltip=&quot;comp2203-exampleSite/step7/library/normal.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/normal.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/step7a/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/step7a/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.text&quot; name=&quot;readme.txt&quot; tooltip=&quot;comp2203-exampleSite/step7/step7b/readme.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/step7b/readme.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateTop.html&quot; tooltip=&quot;comp2203-exampleSite/step6/library/templateTop.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/templateTop.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateBottom.html&quot; tooltip=&quot;comp2203-exampleSite/step7/library/templateBottom.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/library/templateBottom.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.html&quot; name=&quot;templateBottom.html&quot; tooltip=&quot;comp2203-exampleSite/step6/library/templateBottom.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/templateBottom.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;normal.css&quot; tooltip=&quot;comp2203-exampleSite/step6/library/normal.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/library/normal.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.php&quot; name=&quot;page1.php&quot; tooltip=&quot;comp2203-exampleSite/step7/page1.php&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step7/page1.php&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.php&quot; name=&quot;page1.php&quot; tooltip=&quot;comp2203-exampleSite/step6/page1.php&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/step6/page1.php&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.css&quot; name=&quot;left-menu.css&quot; tooltip=&quot;comp2203-exampleSite/trimsite2/trimsite2/css/left-menu.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/comp2203-exampleSite/trimsite2/trimsite2/css/left-menu.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_VZkFgVW5EeSbDvI2NsCVxw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VZkFglW5EeSbDvI2NsCVxw" label="%trimmedwindow.label.eclipseSDK" x="32" y="8" width="1112" height="714">
@@ -201,18 +201,18 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlTuVW5EeSbDvI2NsCVxw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VoGRuEeSl_9GkibsBkA" elementId="new.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VoWRuEeSl_9GkibsBkA" elementId="newWizardDropDown"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VomRuEeSl_9GkibsBkA" elementId="new.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3Vo2RuEeSl_9GkibsBkA" elementId="save.group" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VpGRuEeSl_9GkibsBkA" elementId="save"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VpWRuEeSl_9GkibsBkA" elementId="saveAll"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__X3VpmRuEeSl_9GkibsBkA" elementId="save.ext" visible="false"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__X3Vp2RuEeSl_9GkibsBkA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" enabled="false" command="_VZqMR1W5EeSbDvI2NsCVxw"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQkGRuEeSl_9GkibsBkA" elementId="print.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQkWRuEeSl_9GkibsBkA" elementId="build.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQkmRuEeSl_9GkibsBkA" elementId="build.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQk2RuEeSl_9GkibsBkA" elementId="additions"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IIGRyEeSvIeJGaTGLNg" elementId="new.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IIWRyEeSvIeJGaTGLNg" elementId="newWizardDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IImRyEeSvIeJGaTGLNg" elementId="new.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-II2RyEeSvIeJGaTGLNg" elementId="save.group" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IJGRyEeSvIeJGaTGLNg" elementId="save"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IJWRyEeSvIeJGaTGLNg" elementId="saveAll"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IJmRyEeSvIeJGaTGLNg" elementId="save.ext" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_W4-IJ2RyEeSvIeJGaTGLNg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" enabled="false" command="_VZqMR1W5EeSbDvI2NsCVxw"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IKGRyEeSvIeJGaTGLNg" elementId="print.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IKWRyEeSvIeJGaTGLNg" elementId="build.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IKmRyEeSvIeJGaTGLNg" elementId="build.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IK2RyEeSvIeJGaTGLNg" elementId="additions"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlTxlW5EeSbDvI2NsCVxw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -220,29 +220,29 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT3VW5EeSbDvI2NsCVxw" elementId="org.eclipse.debug.ui.breakpointActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDocGRuEeSl_9GkibsBkA" elementId="breakpointGroup"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDocWRuEeSl_9GkibsBkA" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5248GRyEeSvIeJGaTGLNg" elementId="breakpointGroup"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5248WRyEeSvIeJGaTGLNg" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT4FW5EeSbDvI2NsCVxw" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDocmRuEeSl_9GkibsBkA" elementId="debug"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDoc2RuEeSl_9GkibsBkA" elementId="com.aptana.js.debug.ui.actions.openURL"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDodGRuEeSl_9GkibsBkA" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDodWRuEeSl_9GkibsBkA" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDodmRuEeSl_9GkibsBkA" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5248mRyEeSvIeJGaTGLNg" elementId="debug"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W52482RyEeSvIeJGaTGLNg" elementId="com.aptana.js.debug.ui.actions.openURL"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5249GRyEeSvIeJGaTGLNg" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5249WRyEeSvIeJGaTGLNg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5249mRyEeSvIeJGaTGLNg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT5lW5EeSbDvI2NsCVxw" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDod2RuEeSl_9GkibsBkA" elementId="Search"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDoeGRuEeSl_9GkibsBkA" elementId="org.eclipse.search.OpenSearchDialogPage"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W52492RyEeSvIeJGaTGLNg" elementId="Search"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524-GRyEeSvIeJGaTGLNg" elementId="org.eclipse.search.OpenSearchDialogPage"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT6lW5EeSbDvI2NsCVxw" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDoeWRuEeSl_9GkibsBkA" elementId="Presentation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDoemRuEeSl_9GkibsBkA" elementId="com.aptana.editor.common.toggleMarkOccurrences"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDoe2RuEeSl_9GkibsBkA" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDofGRuEeSl_9GkibsBkA" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__ZDofWRuEeSl_9GkibsBkA" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524-WRyEeSvIeJGaTGLNg" elementId="Presentation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524-mRyEeSvIeJGaTGLNg" elementId="com.aptana.editor.common.toggleMarkOccurrences"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524-2RyEeSvIeJGaTGLNg" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524_GRyEeSvIeJGaTGLNg" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W524_WRyEeSvIeJGaTGLNg" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT8FW5EeSbDvI2NsCVxw" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -250,12 +250,12 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT8lW5EeSbDvI2NsCVxw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQlGRuEeSl_9GkibsBkA" elementId="history.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQlWRuEeSl_9GkibsBkA" elementId="group.application" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQlmRuEeSl_9GkibsBkA" elementId="backardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQl2RuEeSl_9GkibsBkA" elementId="forwardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQmGRuEeSl_9GkibsBkA" elementId="pin.group"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__YKQmWRuEeSl_9GkibsBkA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_VZplXFW5EeSbDvI2NsCVxw"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-ILGRyEeSvIeJGaTGLNg" elementId="history.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-ILWRyEeSvIeJGaTGLNg" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-ILmRyEeSvIeJGaTGLNg" elementId="backardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IL2RyEeSvIeJGaTGLNg" elementId="forwardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W4-IMGRyEeSvIeJGaTGLNg" elementId="pin.group"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_W4-IMWRyEeSvIeJGaTGLNg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_VZplXFW5EeSbDvI2NsCVxw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT-lW5EeSbDvI2NsCVxw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -267,8 +267,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VZlT_lW5EeSbDvI2NsCVxw" elementId="org.eclipse.ui.workbench.help">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQmmRuEeSl_9GkibsBkA" elementId="group.help"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="__YKQm2RuEeSl_9GkibsBkA" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5HSEGRyEeSvIeJGaTGLNg" elementId="group.help"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_W5HSEWRyEeSvIeJGaTGLNg" elementId="group.application" visible="false"/>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_VZlUAVW5EeSbDvI2NsCVxw" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>

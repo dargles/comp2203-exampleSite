@@ -31,12 +31,12 @@ The process is basically as follows:
    You won't notice any difference on a laptop, but it makes a huge difference on a 
    mobile device with a small screen but high resolution.
    
-You can use @media statements to define things like a different layout if printing the 
-page out - but I haven't got into that here.
+You can also use @media statements to define things like a different layout if printing 
+the page out - but I haven't got into that here.
 
 As before, you can inspect the code by downloading it and looking at it in a text editor; 
 but to look at the php pages, you'll need to download the zip file, otherwise they'll be 
 interpreted by the server before they're made available.
 
 D.A.Argles
-16.10.2014 @ 21:25h
+04.11.2014 @ 23:21h

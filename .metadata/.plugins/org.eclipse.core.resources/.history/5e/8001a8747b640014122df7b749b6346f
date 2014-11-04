@@ -7,16 +7,8 @@
  * properly responsive
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 04-11-2014, 23:35h
+ * @version 17-10-2014, 09:11h
  * @copyright 2014 Haven Consulting
- */
-
-/**
- * --------------------------------------------------------------
- * The first section of our CSS will be read by all browsers.  So 
- * what follows acts as (a) the default styling, and (b) the 
- * styling for legacy browsers (which don't understand @media 
- * statements)
  */
 
 /* Compatibility process 1: we declare the HTML5 semantic tags as 
@@ -108,8 +100,6 @@ footer p{padding:0 0 15px 15px;}
  */
 @media screen and (min-width:481px) and (max-width:600px)
 {
-	/* Note: nothing in this section means that intermediate widths will be 
-	 * formatted exactly like legacy browsers */
 }
 /**
  * ------------------------------------------------------------------------
